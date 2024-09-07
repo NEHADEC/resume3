@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Editable Interactive Resume</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section with Personal Information -->
+        <header class="header">
+            <div class="profile">
+                <img src="image.png" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <h1 contenteditable="true">NEHABILAL</h1>
+                    <p>Email: <a href="mailto:email@example.com" contenteditable="true">rajputbilal@example.com</a></p>
+                    <p>Phone: <span contenteditable="true">(123) 456-7890</span></p>
+                    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" contenteditable="true">nehabilal.com/in/yourprofile</a></p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Education Section -->
+        <section class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li contenteditable="true">
+                    <strong>Master of Science in Software Engineering</strong><br>
+                    XYZ University, 2019 - 2021
+                </li>
+                <li contenteditable="true">
+                    <strong>Bachelor of Science in Computer Science</strong><br>
+                    ABC University, 2015 - 2019
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills-section">
+            <h2>Skills</h2>
+            <ul>
+                <li contenteditable="true">JavaScript, TypeScript, HTML, CSS</li>
+                <li contenteditable="true">React, Angular, Vue</li>
+                <li contenteditable="true">Node.js, Express</li>
+                <li contenteditable="true">Git, GitHub, CI/CD, Docker</li>
+                <li contenteditable="true">Agile Methodologies, Scrum, Kanban</li>
+            </ul>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="section work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li contenteditable="true">
+                    <strong>Software Engineer</strong> at Company A<br>
+                    2021 - Present<br>
+                    <em>Responsibilities:</em> Developing and maintaining web applications using modern JavaScript frameworks.
+                </li>
+                <li contenteditable="true">
+                    <strong>Frontend Developer</strong> at Company B<br>
+                    2019 - 2021<br>
+                    <em>Responsibilities:</em> Designed and implemented responsive user interfaces.
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
